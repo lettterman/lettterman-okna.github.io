@@ -1,0 +1,51 @@
+.actie_cell_one_img{
+    height: 360px;
+    width:540px;
+    background: url("http://amintastudio.xyz/wp-content/themes/window-theme/img/actie_cell_img_one.png");
+    background-size: cover;
+}
+.actie_cell_two_img{
+    height: 360px;
+    width:540px;
+    background: url("http://amintastudio.xyz/wp-content/themes/window-theme/img/actie_cell_img_two.png");
+    background-size: cover;
+}
+.actie_cell_three_img{
+     height: 360px;
+     width:540px;
+     background: url("http://amintastudio.xyz/wp-content/themes/window-theme/img/actie_cell_img_three.png");
+     background-size: cover;
+ }
+.actie_cell_four_img{
+    height: 360px;
+    width:540px;
+    background: url("http://amintastudio.xyz/wp-content/themes/window-theme/img/actie_cell_img_four.png");
+    background-size: cover;
+}
+.actie_cell_five_img{
+    height: 360px;
+    width:540px;
+    background: url("http://amintastudio.xyz/wp-content/themes/window-theme/img/actie_cell_img_five.png");
+    background-size: cover;
+}
+.actie_cell_six_img{
+     height: 360px;
+     width:540px;
+     background: url("http://amintastudio.xyz/wp-content/themes/window-theme/img/actie_cell_img_six.png");
+     background-size: cover;
+ }
+.actie_cell_text{
+    height:240px;
+    width: 480px;
+    background-color: #e8e8e8;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.actie_container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
