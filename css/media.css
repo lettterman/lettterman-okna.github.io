@@ -56,6 +56,11 @@
     }
 
 }
+@media (max-width: 740px){
+    .hidden{
+        display: none;
+    }
+}
 @media (max-width: 560px){
     .hidden{
         display: none;

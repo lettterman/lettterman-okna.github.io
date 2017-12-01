@@ -59,10 +59,11 @@
 .card_section_1 {
     display: flex;
     align-items: flex-start;
-    width: 975px;
+    width: 940px;
     height: 284px;
     justify-content: space-between;
     color: #fff;
+    margin: 0 auto;
 }
 .card_left_block_1{
     display: flex;
@@ -75,7 +76,7 @@
 }
 .card_section_1 .but {
     height: 54px;
-    width: 44%;
+    width: 200px;
     font-size: 16px;
     background-color: #FFC88E;
     border: none;
@@ -114,25 +115,25 @@
 .card_icon_cmc_img{
     height: 100px;
     width: 100px;
-    background: url("../img/cart/1/card_icon_cmc.png");
+    background: url("../img/card_icon_cmc.png");
     background-size: cover;
 }
 .card_icon_lamp_img{
     height: 100px;
     width: 100px;
-    background: url("../img/cart/2/card_icon_lamp.png");
+    background: url("../img/card_icon_lamp.png");
     background-size: cover;
 }
 .card_icon_5000_img{
     height: 100px;
     width: 100px;
-    background: url("../img/cart/3/card_icon_5000.png");
+    background: url("../img/card_icon_5000.png");
     background-size: cover;
 }
 .card_icon_coupon_img{
     height: 100px;
     width: 100px;
-    background: url("../img/cart/4/card_icon_coupon.png");
+    background: url("../img/card_icon_coupon.png");
     background-size: cover;
 }
 .card_inline_block b {
@@ -172,20 +173,19 @@
     display: flex;
 }
 .card_section_3 .enlarge {
-    width: 28%;
+    width: 30%;
     font-size: 3vw;
 }
 
 .card_section_3 .enlarge h1{
     line-height: 30px;
-;
 }
 .card_section_3 .enlarge p{
     font-size: 18px;
     margin-bottom: 28px;
 }
 .card_section_3 .di2 h1{
-    margin-top: 28px;
+
     margin-bottom: 0;
     font-size: 85px;
 }
@@ -215,12 +215,15 @@
 }
 .card_section_4 {
     display: flex;
-    width: 975px;
+    width: 100%;
     margin-top: 0px;
 }
 .card_section_4 .service{
     flex: 1;
     padding-top: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: calc(50% - 160px);
 }
 .card_section_4 .remont_input_{
     flex: 1;
@@ -261,11 +264,11 @@
 }
 /*form*/
 .card_section_5 {
-    padding-left: 28px;
+    padding-left: 80px;
+    padding-right: 80px;
     padding-top: 25px;
     background-color: #FFD0B4;
-    padding-right: 23px;
-    width: 45%;
+    width: calc(50% - 160px);
     position: relative;
 }
 .card_white {
@@ -278,8 +281,7 @@
     font-size: 17px;
 }
 .card_section_5 .font_Arial-regular {
-    font-size: 44px;
-    margin-top: 37px;
+    font-size: 30px;
 }
 .card_section_5 .m-t-15 span {
     font-size: 18px;
@@ -289,7 +291,7 @@
 .card_section_5 .remont_input_input {
     height: 40px;
     font-size: 18px;
-    width: 80%;
+    width: calc(100% - 16px);
     border: none;
     padding-left: 8px;
     padding-right: 8px;
@@ -316,7 +318,9 @@
     color: #676565;
 }
 .card_section_5 input.check{
-    margin-right: 6px;
+    width: 15px;
+    height: 15px;
+
 }
 .card_section_5 .flex-row {
     display: flex;
@@ -376,7 +380,7 @@
     justify-content: space-between;
     color: #fff;
 }
-tablet_header_img{
+.tablet_header_img{
     width: 38%;
 }
 .card_left_block_tablet{
@@ -387,17 +391,16 @@ tablet_header_img{
     z-index: 10;
 }
 .card_right_img_tablet{
-    position: relative;
-    top: 144px;
-    left: 354px;
+    position: absolute;
+    top: 250px;
+    right: 30px;
     z-index: 2;
 }
 /* тут просто переименованные и немного видоизмененные стили формы 4 под планшет*/
 .card_section_tablet_4 {
     display: flex;
     flex-direction: column;
-    width: 88%;
-    margin-top: 0px;
+    width: 100%;
 }
 .card_section_tablet_4 .service{
     flex: 1;
@@ -426,7 +429,7 @@ tablet_header_img{
 }
 .card_section_tablet_4 .service h2 {
     font-size: 18px;
-    margin-top: 33px;
+
 }
 .card_section_tablet_4 .service ul {
     list-style: none;
@@ -442,10 +445,8 @@ tablet_header_img{
 }
 /* тут просто переименованные стили 5 формы под планшет*/
 .card_section_tablet_5 {
-    padding-left: 28px;
     padding-top: 25px;
     background-color: #FFD0B4;
-    padding-right: 23px;
     width: 100%;
     position: relative;
     margin-top: 60px;
@@ -462,15 +463,16 @@ tablet_header_img{
 .card_section_tablet_5 .remont_input_input {
     height: 40px;
     font-size: 18px;
-    width: 80%;
+    width: calc(100% - 16px);
     border: none;
     padding-left: 8px;
     padding-right: 8px;
+}
 .card_section_tablet_5 .remont_input_input.d {
     border: 1px solid #fff;
     border-radius: 4px;
     margin-top: 11px;
-    width: 84%;
+    width: 100%;
     background-color: #FFD0B4;
     color: #676565;
 }
@@ -480,4 +482,24 @@ tablet_header_img{
 .card_section_tablet_5 .flex-row {
     display: flex;
     color: #676565;
+}
+.card_banner_number{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.card_banner_number .circle_white{
+   margin-top: calc(100% - 450px);
+}
+.card_banner_number > div{
+   text-align: center;
+}
+
+@media (max-width: 1129px){
+    .card_banner_number .circle_white {
+        margin-top: calc(100% - 355px);
+    }
+    .card_banner_number{
+        margin-top: 45px;
+    }
 }
