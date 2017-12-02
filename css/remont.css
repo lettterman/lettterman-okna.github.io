@@ -28,27 +28,28 @@
     margin: 0 0 20px 0;
     box-sizing: border-box;
 }
-#remont_remont{
-    height: 410px;
-    margin: 0 0 20px 0;
-    box-sizing: border-box;
-}
 .remont_remont_bg{
     background: url("../img/remont_remont.png") center left;
     background-size: cover;
+    height: 410px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    padding-left: 50%;
+    padding-top: 30px;
 }
 
 #remont_better{
     height: 550px;
     box-sizing: border-box;
-    margin: 0 0 20px 0;
+    margin: 450px 0 20px 0;
+
 }
 .remont_better-1{
     background: url("../img/remont-better-1.png") center left;
     background-size: cover;
     height: 100%;
 }
-#remont_input{
+/*#remont_input{
     height: 500px;
     margin: 0 0 20px 0;
     box-sizing: border-box;
@@ -90,7 +91,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 #remont_gallery{
     height: 680px;
     margin: 0 0 20px 0;
@@ -275,71 +276,95 @@
 
 }
 .ajax_banner{
-    width: 100%;
-    height: 100%;
+
 
 
 }
-.ajax_banner > div{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    height: 330px;
+#remont_ajax_1-bg{
+     background: url("../img/banner-ajax-remont1.png") center right;
+     height: 380px;
+     width: calc(100% - 80px);
+     padding-left: 80px;
+     padding-top: 30px;
+ }
+#remont_ajax_2-bg{
+    background: url("../img/banner-ajax-remont-2.png") center right;
+    height: 380px;
+    width: calc(100% - 80px);
+    padding-left: 80px;
     padding-top: 30px;
-    margin-left: 80px;
 }
-#remont_ajax_1{
-    background: url("../img/banner-ajax-remont1.png") center right;
-    height: 100%;
-    width: 100%;
+#remont_ajax_3-bg{
+    background: url("../img/banner-ajax-remont-3.png") center right;
+    height: 380px;
+    width: calc(100% - 80px);
+    padding-left: 80px;
+    padding-top: 30px;
+}
+#remont_ajax_4-bg{
+    background: url("../img/banner-ajax-remont-4.png") center right;
+    height: 380px;
+    width: calc(100% - 80px);
+    padding-left: 80px;
+    padding-top: 30px;
+}
+#remont_ajax_5-bg{
+    background: url("../img/banner-ajax-remont-5.png") center right;
+    height: 380px;
+    width: calc(100% - 80px);
+    padding-left: 80px;
+    padding-top: 30px;
+}
+#remont_ajax_6-bg{
+    background: url("../img/banner-ajax-remont-6.png") center right;
+    height: 380px;
+    width: calc(100% - 80px);
+    padding-left: 80px;
+    padding-top: 30px;
+}
+#remont_ajax_7-bg{
+    background: url("../img/banner-ajax-remont-7.png") center right;
+    height: 380px;
+    width: calc(100% - 80px);
+    padding-left: 80px;
+    padding-top: 30px;
+}
+#remont_ajax_8-bg{
+    background: url("../img/banner-ajax-remont-8.png") center right;
+    height: 380px;
+    width: calc(100% - 80px);
+    padding-left: 80px;
+    padding-top: 30px;
+}
+#remont_ajax_9-bg{
+    background: #EAEAEA url("../img/banner-ajax-remont-9.png") no-repeat 600px center;
+    background-size: 40%;
+    height: 380px;
+    width: calc(100% - 80px);
+    padding-left: 80px;
+    padding-top: 30px;
 }
 #remont_ajax_2{
-    background: url("../img/banner-ajax-remont-2.png") center right;
-    height: 100%;
-    width: 100%;
     display: none;
 }
 #remont_ajax_3{
-    background: url("../img/banner-ajax-remont-3.png") center right;
-    height: 100%;
-    width: 100%;
     display: none;
 }
 #remont_ajax_4{
-    background: url("../img/banner-ajax-remont-4.png") center right;
-    height: 100%;
-    width: 100%;
     display: none;
 }
 #remont_ajax_5{
-    background: url("../img/banner-ajax-remont-5.png") center right;
-    height: 100%;
-    width: 100%;
     display: none;
 }
 #remont_ajax_6{
-    background: url("../img/banner-ajax-remont-6.png") center right;
-    height: 100%;
-    width: 100%;
     display: none;
 }
 #remont_ajax_7{
-    background: url("../img/banner-ajax-remont-7.png") center right;
-    height: 100%;
-    width: 100%;
     display: none;
 }
 #remont_ajax_8{
-    background: url("../img/banner-ajax-remont-8.png") center right;
-    height: 100%;
-    width: 100%;
     display: none;
 }
 #remont_ajax_9{
-    background: #EAEAEA url("../img/banner-ajax-remont-9.png") no-repeat 600px center;
-    background-size: 40%;
-    height: 100%;
-    width: 100%;
     display: none;
 }

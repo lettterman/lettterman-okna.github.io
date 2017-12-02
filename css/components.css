@@ -88,6 +88,15 @@
     justify-content: center;
     border-radius: 6px;
 }
+.blue_btn{
+    width: 220px;
+    height: 50px;
+    background: #02A6E1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
 /*hovers*/
 /*inputs*/
 .input_orange{
@@ -139,6 +148,9 @@
     margin-left: 25px !important;
 }
 .m-l-30{
+    margin-left: 30px !important;
+}
+.m-l-80{
     margin-left: 30px !important;
 }
 /*margin-top*/
