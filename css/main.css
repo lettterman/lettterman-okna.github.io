@@ -52,6 +52,10 @@ header {
     font-size: 15px;
     height: 70px;
 }
+header > .wrap > .flex-column{
+    line-height: 20px;
+}
+
 
 .logo {
     background: url("../img/logo.png") center center;
@@ -64,6 +68,9 @@ header {
     border-radius: 4px;
     width: 198px;
     height: 48px;
+}
+.header_nocost .flex-column{
+    line-height: 18px;
 }
 
 /*nav*/
@@ -86,12 +93,9 @@ nav {
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-size: 17px;
-    font-family: 'Arial', sans-serif;
-    font-weight: 700;
 }
 
-.nav_big:hover {
+.nav_big-active {
     background-color: #0991D8;
 }
 
@@ -101,8 +105,6 @@ nav {
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-size: 17px;
-    font-family: 'Arial', sans-serif;
     font-weight: 700;
 }
 

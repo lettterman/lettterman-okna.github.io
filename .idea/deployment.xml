@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
+      <paths name="modx">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/q.zerosmoke.me" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="steam">
         <serverdata>
           <mappings>

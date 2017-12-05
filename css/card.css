@@ -225,7 +225,7 @@
     padding-right: 80px;
     width: calc(50% - 160px);
 }
-.card_section_4 .remont_input_{
+.card_section_4 .index_input_{
     flex: 1;
 }
 .card_section_4 .service button{
@@ -288,7 +288,7 @@
     line-height: 34px;
 }
 
-.card_section_5 .remont_input_input {
+.card_section_5 .index_input_input {
     height: 40px;
     font-size: 18px;
     width: calc(100% - 16px);
@@ -297,19 +297,19 @@
     padding-right: 8px;
 }
 
-.remont_input_input.a{
+.index_input_input.a{
     background-image: url("../img/person.png");
     background-repeat: no-repeat;
     background-position-x: 97%;
     background-position-y: 2px;
 }
-.remont_input_input.b{
+.index_input_input.b{
     background-image: url("../img/phone.png");
     background-repeat: no-repeat;
     background-position-x: 97%;
     background-position-y: 2px;
 }
-.card_section_5 .remont_input_input.d {
+.card_section_5 .index_input_input.d {
     border: 1px solid #fff;
     border-radius: 4px;
     margin-top: 11px;
@@ -406,7 +406,7 @@
     flex: 1;
     padding-top: 25px;
 }
-.card_section_tablet_4 .remont_input_{
+.card_section_tablet_4 .index_input_{
     flex: 1;
 }
 .card_section_tablet_4 .service button{
@@ -460,7 +460,7 @@
     line-height: 34px;
 }
 
-.card_section_tablet_5 .remont_input_input {
+.card_section_tablet_5 .index_input_input {
     height: 40px;
     font-size: 18px;
     width: calc(100% - 16px);
@@ -468,7 +468,7 @@
     padding-left: 8px;
     padding-right: 8px;
 }
-.card_section_tablet_5 .remont_input_input.d {
+.card_section_tablet_5 .index_input_input.d {
     border: 1px solid #fff;
     border-radius: 4px;
     margin-top: 11px;

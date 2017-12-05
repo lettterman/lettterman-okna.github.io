@@ -1,34 +1,40 @@
-#remont_slider{
+#index_slider {
     height: 420px;
     box-sizing: border-box;
 }
-.remont_slider_head{
+
+.index_slider_head {
     height: 420px;
     background: url("../img/3.png") center right;
 }
-.remont_slider_head_li{
+
+.index_slider_head_li {
     width: 370px;
 }
-.remont_slider_head_li-margin{
+
+.index_slider_head_li-margin {
 
 }
 
-#remont_menu-ajax{
+#index_menu-ajax {
     height: 195px;
     box-sizing: border-box;
 
 }
-#remont_menu-ajax .wrap{
+
+#index_menu-ajax .wrap {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#remont_tab{
+
+#index_tab {
     height: 410px;
     margin: 0 0 20px 0;
     box-sizing: border-box;
 }
-.remont_remont_bg{
+
+.index_index_bg {
     background: url("../img/remont_remont.png") center left;
     background-size: cover;
     height: 410px;
@@ -38,24 +44,26 @@
     padding-top: 30px;
 }
 
-#remont_better{
+#index_better {
     height: 550px;
     box-sizing: border-box;
     margin: 450px 0 20px 0;
 
 }
-.remont_better-1{
+
+.index_better-1 {
     background: url("../img/remont-better-1.png") center left;
     background-size: cover;
     height: 100%;
 }
-/*#remont_input{
+
+/*#index_input{
     height: 500px;
     margin: 0 0 20px 0;
     box-sizing: border-box;
 
 }
-.remont_input{
+.index_input{
     width: calc(50% - 80px);
     height: 100%;
     background: #FFD4BB;
@@ -65,14 +73,14 @@
     justify-content: center;
     padding-left: 80px;
 }
-.remont_input input{
+.index_input input{
     width: 380px;
     height: 50px;
 }
-.remont_input_input{
+.index_input_input{
     border: none;
 }
-.remont_sticker-orange{
+.index_sticker-orange{
     background: #F36613;
     width: 125px;
     height: 30px;
@@ -82,7 +90,7 @@
     align-items: center;
     justify-content: center;
 }
-.remont_sticker-blue{
+.index_sticker-blue{
     background: #19A1E8;
     width: 125px;
     height: 30px;
@@ -92,28 +100,33 @@
     align-items: center;
     justify-content: center;
 }*/
-#remont_gallery{
+#index_gallery {
     height: 680px;
     margin: 0 0 20px 0;
     box-sizing: border-box;
 }
-#remont_video-rewiews{
+
+#index_video-rewiews {
     height: 350px;
     margin: 0 0 20px 0;
     box-sizing: border-box;
 }
-.video-rewiews_container{
+
+.video-rewiews_container {
     height: 200px;
     width: 310px;
 }
+
 .video-rewiews_container_bg1 {
     background: url("../img/video-rewiews_container_bg1.png") center;
     background-size: cover;
 }
-#remont_video-rewiews div{
+
+#index_video-rewiews div {
     text-align: center;
 }
-.video-rewiews_sticker{
+
+.video-rewiews_sticker {
     background: #F36613;
     width: 125px;
     height: 30px;
@@ -125,7 +138,8 @@
     justify-content: center;
     margin-top: 150px;
 }
-.play{
+
+.play {
     background: url("../img/play.png") center;
     background-size: cover;
     width: 50px;
@@ -135,7 +149,8 @@
     top: -105px;
     left: 130px;
 }
-.logo_mini{
+
+.logo_mini {
     background: url("../img/logo-mini.png") center;
     background-size: cover;
     width: 47px;
@@ -145,11 +160,13 @@
     top: -220px;
     left: 250px;
 }
-#remont_problems{
+
+#index_problems {
     height: 1030px;
     box-sizing: border-box;
 }
-.main-card{
+
+.main-card {
     width: 645px;
 
     height: 310px;
@@ -159,12 +176,14 @@
     position: relative;
 
 }
-.main-card_bg{
+
+.main-card_bg {
     height: 165px;
     background: url("../img/main-card.png") center;
     background-size: cover;
 }
-.main-card_sticker{
+
+.main-card_sticker {
     width: 180px;
     height: 30px;
     display: flex;
@@ -173,7 +192,8 @@
     background: #24B0E3;
 
 }
-.second-card{
+
+.second-card {
     width: 645px;
     height: 145px;
     background: #fff;
@@ -182,7 +202,8 @@
     position: relative;
 
 }
-.third-card{
+
+.third-card {
     width: 315px;
     height: 145px;
     background: #fff;
@@ -190,20 +211,23 @@
     box-sizing: border-box;
     position: relative;
 }
-.problems_ajax{
+
+.problems_ajax {
     position: absolute;
     bottom: 15px;
     right: 60px;
     cursor: pointer;
 }
-.problems_ajax_mini{
+
+.problems_ajax_mini {
     position: absolute;
     bottom: 15px;
     left: 15px;
     cursor: pointer;
 
 }
-.production-company{
+
+.production-company {
     width: 230px;
     height: 305px;
     text-align: center;
@@ -213,50 +237,54 @@
     justify-content: flex-start;
     border: 1px solid #E2E2E2;
 }
-.production-company_1{
+
+.production-company_1 {
     height: 165px;
     width: 100%;
     background: url("../img/production-company_1.png") center;
     background-size: cover;
 }
-.production-company_2{
+
+.production-company_2 {
     height: 165px;
     width: 100%;
     background: url("../img/production-company_2.png") center;
     background-size: cover;
 }
-.production-company_3{
+
+.production-company_3 {
     height: 165px;
     width: 100%;
     background: url("../img/production-company_3.png") center;
     background-size: cover;
 }
-.production-company_4{
+
+.production-company_4 {
     height: 165px;
     width: 100%;
     background: url("../img/production-company_4.png") center;
     background-size: cover;
 }
-#remont_form{
+
+#index_form {
     height: 160px;
     margin: 0 0 20px 0;
     box-sizing: border-box;
 }
-.remont_form{
+
+.index_form {
     background: url("../img/remont_form.png") center left;
 }
 
-
-
-
-.ajax-menu_container{
+.ajax-menu_container {
     margin: 30px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
-.ajax-menu_container-desktop{
+
+.ajax-menu_container-desktop {
     border: 1px solid #D1D1D1;
     font-size: 17px;
     height: 30px;
@@ -266,8 +294,7 @@
     margin: 15px 0 0 0;
 }
 
-
-.ajax-menu_cell{
+.ajax-menu_cell {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -275,68 +302,76 @@
     height: 100%;
 
 }
-.ajax_banner{
 
-
+.ajax_banner {
 
 }
-#remont_ajax_1-bg{
-     background: url("../img/banner-ajax-remont1.png") center right;
-     height: 380px;
-     width: calc(100% - 80px);
-     padding-left: 80px;
-     padding-top: 30px;
- }
-#remont_ajax_2-bg{
+
+#index_ajax_1-bg {
+    background: url("../img/banner-ajax-remont1.png") center right;
+    height: 380px;
+    width: calc(100% - 80px);
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+#index_ajax_2-bg {
     background: url("../img/banner-ajax-remont-2.png") center right;
     height: 380px;
     width: calc(100% - 80px);
     padding-left: 80px;
     padding-top: 30px;
 }
-#remont_ajax_3-bg{
+
+#index_ajax_3-bg {
     background: url("../img/banner-ajax-remont-3.png") center right;
     height: 380px;
     width: calc(100% - 80px);
     padding-left: 80px;
     padding-top: 30px;
 }
-#remont_ajax_4-bg{
+
+#index_ajax_4-bg {
     background: url("../img/banner-ajax-remont-4.png") center right;
     height: 380px;
     width: calc(100% - 80px);
     padding-left: 80px;
     padding-top: 30px;
 }
-#remont_ajax_5-bg{
+
+#index_ajax_5-bg {
     background: url("../img/banner-ajax-remont-5.png") center right;
     height: 380px;
     width: calc(100% - 80px);
     padding-left: 80px;
     padding-top: 30px;
 }
-#remont_ajax_6-bg{
+
+#index_ajax_6-bg {
     background: url("../img/banner-ajax-remont-6.png") center right;
     height: 380px;
     width: calc(100% - 80px);
     padding-left: 80px;
     padding-top: 30px;
 }
-#remont_ajax_7-bg{
+
+#index_ajax_7-bg {
     background: url("../img/banner-ajax-remont-7.png") center right;
     height: 380px;
     width: calc(100% - 80px);
     padding-left: 80px;
     padding-top: 30px;
 }
-#remont_ajax_8-bg{
+
+#index_ajax_8-bg {
     background: url("../img/banner-ajax-remont-8.png") center right;
     height: 380px;
     width: calc(100% - 80px);
     padding-left: 80px;
     padding-top: 30px;
 }
-#remont_ajax_9-bg{
+
+#index_ajax_9-bg {
     background: #EAEAEA url("../img/banner-ajax-remont-9.png") no-repeat 600px center;
     background-size: 40%;
     height: 380px;
@@ -344,27 +379,63 @@
     padding-left: 80px;
     padding-top: 30px;
 }
-#remont_ajax_2{
+
+#index_ajax_2 {
     display: none;
 }
-#remont_ajax_3{
+
+#index_ajax_3 {
     display: none;
 }
-#remont_ajax_4{
+
+.winter_sticker {
+    width: 180px;
+    height: 30px;
+    background: #FFD4BB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#index_ajax_summer{
+    display: none;
+    background: #EAEAEA url(../img/summer.png) 50px center no-repeat;
+    background-size: contain;
+    height: 410px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    padding-left: 50%;
+    padding-top: 30px;
+}
+#index_ajax_winter{
+    background: #EAEAEA url(../img/winter.png) 50px center  no-repeat;
+    background-size: contain;
+    height: 410px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    padding-left: 50%;
+    padding-top: 30px;
+}
+
+#index_ajax_4 {
     display: none;
 }
-#remont_ajax_5{
+
+#index_ajax_5 {
     display: none;
 }
-#remont_ajax_6{
+
+#index_ajax_6 {
     display: none;
 }
-#remont_ajax_7{
+
+#index_ajax_7 {
     display: none;
 }
-#remont_ajax_8{
+
+#index_ajax_8 {
     display: none;
 }
-#remont_ajax_9{
+
+#index_ajax_9 {
     display: none;
 }

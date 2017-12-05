@@ -57,6 +57,12 @@
     right: calc(50% - 550px);
     top: 280px;
 }
+
+.vert_grey_line{
+    background: #B2B2B2;
+    width: 1px;
+    height: 23px;
+}
 /*btn*/
 .slider_btn{
     width: 240px;
@@ -111,7 +117,7 @@
     border: none;
     height: 34px;
 }
-.remont_form_input{
+.index_form_input{
     border: 0;
     width: 220px;
     height: 35px;

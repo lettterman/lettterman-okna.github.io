@@ -12,66 +12,636 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/accessories.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/card.css">
 </head>
 <body>
-    <header>
-        <div class="wrap flex-row-space-center">
-            <div class="logo"></div>
-            <div class="flex-row-space">
-                <div >Работаем <span class="blue"> 24\7</span></div>
-                <div class="m-l-10 m-r-10"> | </div>
-                <div>ул. Дагестанская д. 41</div>
+
+        <header>
+            <div class="wrap flex-row-space-center">
+                <div class="logo"></div>
+                <div class="flex-row-space">
+                    <div >Работаем <span class="blue"> 24\7</span></div>
+                    <div class="m-l-10 m-r-10"> | </div>
+                    <div>ул. Дагестанская д. 41</div>
+                </div>
+                <div class="header_nocost flex-center">
+                    <div class="flex-row-center">
+                        <img class="m-r-15" width="46" height="29" src="img/zamer.png">
+                        <div class="flex-column">
+                            <span class="font-17 font_OpenSans-semibold">Бесплатный</span>
+                            <span class="lightgrey">выезд на замер</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-column">
+                    <div>+ 7 (343)<span class="font_OpenSans-bold font-23"> 300-95-25</span></div>
+                    <span class="blue">Заказать обратный звонок</span>
+                </div>
+                <div class="flex-row">
+                    <img class="m-r-15" src="img/card.png">
+                    <span>Клубная карта</span>
+                </div>
             </div>
-            <div class="header_nocost flex-center">
-                <div class="flex-row-center">
-                    <img class="m-r-15" width="46" height="29" src="img/zamer.png">
-                    <div class="flex-column">
-                        <span class="font-17 font_OpenSans-semibold">Бесплатный</span>
-                        <span class="lightgrey">выезд на замер</span>
+        </header>
+        <nav>
+            <div class="nav_content flex-row-space">
+                <div class="nav_big nav_big_border">Ремонт и сервис окон</div>
+                <div class="nav_big nav_big_border">Аксессуары для окон</div>
+                <div class="nav_big nav_big_border">Шторы и жалюзи</div>
+                <div class="nav_big nav_big_border">Отзывы</div>
+                <div class="nav_small">Акции</div>
+            </div>
+        </nav>
+        <section id="index_slider">
+            <div class="wrap index_slider_head">
+                <div style="margin-left: 80px">
+                    <div class="orange" style="padding: 50px 0 0 0; font-size: 24px; font-family: 'Arial', sans-serif">ХИТ СЕЗОНА!</div>
+                    <div class="font-40 font_Arial-regular">ОТДЕЛКА ЛАМИНАТОМ<br>БАЛКОНА ИЛИ ЛОДЖИИ</div>
+                    <div style="margin: 20px 0 30px 0" class="flex-row-space-end index_slider_head_li">
+                        <div class="flex-column">
+                            <div class="flex-row-center "><div class="circle_orange"></div><span>Красиво.</span></div>
+                            <div class="flex-row-center index_slider_head_li-margin"><div class="circle_orange"></div><span>Удобно.</span></div>
+                            <div class="flex-row-center"><div class="circle_orange"></div><span>Долговечно.</span></div>
+                        </div>
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/gift.png">
+                    </div>
+                    <a href="#" class="slider_btn">Получить подарок!</a>
+                </div>
+                <div class="left-arrow_slider"></div>
+                <div class="right-arrow_slider"></div>
+            </div>
+        </section>
+        <section id="index_menu-ajax">
+            <div class="wrap">
+                <div style="width: 940px" class="candy">
+                    <div class="ajax-menu_container-desktop flex-row-space">
+                        <div id="to_index_ajax_1" style="background-color: #02A6E1; color: #fff " class="ajax-menu_cell">Ремонт окон</div>
+                        <div style="display: none" id="index_ajax_1_line">|</div>
+                        <div id="to_index_ajax_2" class="ajax-menu_cell">Замена стеклопакета</div>
+                        <div id="index_ajax_2_line">|</div>
+                        <div id="to_index_ajax_3" class="ajax-menu_cell">Ремонт балконов</div>
+                    </div>
+                    <div class="ajax-menu_container-desktop flex-row-space">
+                        <div id="to_index_ajax_4" class="ajax-menu_cell">Дует из окна</div>
+                        <div id="index_ajax_3_line">|</div>
+                        <div id="to_index_ajax_5" class="ajax-menu_cell">Лед и конденсат на окне</div>
+                        <div id="index_ajax_4_line">|</div>
+                        <div id="to_index_ajax_6" class="ajax-menu_cell">Утепление окон</div>
+                    </div>
+                    <div class="ajax-menu_container-desktop flex-row-space">
+                        <div id="to_index_ajax_7" class="ajax-menu_cell">Скрипит окно</div>
+                        <div id="index_ajax_5_line">|</div>
+                        <div id="to_index_ajax_8" class="ajax-menu_cell">Замена фурнитуры</div>
+                        <div id="index_ajax_6_line">|</div>
+                        <div id="to_index_ajax_9" class="ajax-menu_cell">Откосы и подоконники</div>
                     </div>
                 </div>
             </div>
-            <div class="flex-column">
-                <div>+ 7 (343)<span class="font_OpenSans-bold font-23"> 300-95-25</span></div>
-                <span class="blue">Заказать обратный звонок</span>
-            </div>
-            <div class="flex-row">
-                <img class="m-r-15" src="img/card.png">
-                <span>Клубная карта</span>
-            </div>
-        </div>
-    </header>
-    <nav>
-        <div class="nav_content flex-row-space">
-            <div class="nav_big nav_big_border">Ремонт и сервис окон</div>
-            <div class="nav_big nav_big_border">Аксессуары для окон</div>
-            <div class="nav_big nav_big_border">Шторы и жалюзи</div>
-            <div class="nav_big nav_big_border">Отзывы</div>
-            <div class="nav_small">Акции</div>
-        </div>
-    </nav>
+        </section>
+        <section id="index_tab">
+            <div class="wrap">
+                <div  id="index_ajax_1" class="ajax_banner">
+                    <div id="index_ajax_1-bg">
+                        <div class="font_Arial-regular font-30">РЕМОНТ ОКОН И ДВЕРЕЙ<br>ЛЮБОЙ СЛОЖНОСТИ</div>
+                        <div class="flex-row m-t-20">
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">пластиковые</span></div>
+                            <div class="flex-row-center m-l-15 index_slider_head_li-margin m"><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">деревянные</span></div>
+                            <div class="flex-row-center m-l-15"><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">алюминиевые</span></div>
+                        </div>
+                        <div class="grey font-16 m-t-15">
+                            Пластиковые окна, несмотря на свои высокие эксплутационные<br>
+                            характеристики, с течением времени тоже нуждаетсяв ремонте,<br>
+                            и им также нужно сервисное обслуживание.
+                        </div>
+                        <div class="font_Arial-regular font-18 m-t-30"><span class="font_Arial-bold font-16">Цена:</span><span class="orange font_Arial-bold font-24"> от 600 руб,</span><span class="orange"> 1-3 часа</span></div>
+                        <div class="flex-row m-t-30">
+                            <input placeholder="+7 (000) 000-0000" class="input_orange">
+                            <a  class="slider_btn m-l-25 font-16 font_OpenSans-regular">Решите мою проблему</a>
+                        </div>
+                    </div>
+                    <div class="m-t-20 index_index_bg ">
+                        <div class="font_Arial-regular font-30 ">У вас капитальные проблемы с<br>окнами?</div>
+                        <div class="font_Arial-regular font-30 orange m-t-5">Решим!</div>
+                        <div class="flex-row m-t-40">
+                            <div class="flex-column">
+                                <div  class="flex-row-center "><div class="circle_orange"></div><span class="font_OpenSans-regular font-20">Продувают</span></div>
+                                <div  class="flex-row-center m-t-15"><div class="circle_orange"></div><span class="font_OpenSans-regular font-20">Скрипят и заедают</span></div>
+                                <div  class="flex-row-center m-t-15"><div class="circle_orange"></div><span class="font_OpenSans-regular font-20">Не закрываются</span></div>
+                            </div>
+                            <div class="flex-column m-l-80">
+                                <div  class="flex-row-center "><div class="circle_orange"></div><span class="font_OpenSans-regular font-20">Промерзают</span></div>
+                                <div  class="flex-row-center m-t-15"><div class="circle_orange"></div><span class="font_OpenSans-regular font-20">Сломались ручки</span></div>
+                                <div  class="flex-row-center m-t-15"><div class="circle_orange"></div><span class="font_OpenSans-regular font-20">Стучит отлив</span></div>
+                            </div>
+                        </div>
+                        <a href="#" class="white blue_btn font_OpenSans-regular font-16 m-t-40">Нужен ремонт!</a>
+                    </div>
+                </div>
+                <div id="index_ajax_3" class="ajax_banner">
+                    <div id="index_ajax_3-bg">
+                        <div class="font_Arial-regular font-30">РЕМОНТ<br>БАЛКОНОВ И ЛОДЖИЙ</div>
+                        <div class="flex-column m-t-10">
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">устранение протеканий</span></div>
+                            <div class="flex-row-center  index_slider_head_li-margin m"><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">устранение трещин</span></div>
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">починка створок</span></div>
+                        </div>
+                        <div class="grey font-16 m-t-10">
+                            Компания "Спец Монтаж Строй" осуществляет все виды<br>оконно-ремонтных работ
+                        </div>
+                        <div class="font_Arial-regular font-18 m-t-30"><span class="font_Arial-bold font-16">Цена:</span><span class="orange font_Arial-bold font-24">от 790 руб.</span><span class="orange">, 1-3 часа</span></div>
+                        <div class="flex-row m-t-30">
+                            <input class="input_orange">
+                            <a  class="slider_btn m-l-25 font-16 font_OpenSans-regular">Решите мою проблему</a>
+                        </div>
+                    </div>
+                    <div id="index_ajax_winter" class="m-t-20 index_index_bg ">
+                        <div class="font_Arial-regular font-30 ">ЭНЕРГОСБЕРЕГАЮЩИЙ<br>СТЕКЛОПАКЕТ.</div>
+                        <div class="flex-row m-t-15">
+                            <div id="to_index_ajax_winter" class="winter_sticker active"><img src="img/snowly.png"><span class="font_OpenSans-regular white font-14 m-l-5">Зима</span></div>
+                            <div id="to_index_ajax_summer" class="winter_sticker"><img src="img/sunny.png"><span class="font_OpenSans-regular white font-14 m-l-5">Лето</span></div>
+                        </div>
+                        <div class="font_OpenSans-bold font-24  m-t-15">Зимой тепло остается в доме.</div>
+                        <div class="font_OpenSans-regular font-16  m-t-20">Энергосберегающий теплопакет сохраняет в доме в 2 раза<br>
+                            больше тепла зимой и защищает от жары летом.</div>
+                        <div class="font_OpenSans-bold font-16  m-t-10">Температура в комнате при 0&#176;С за окном, <span class="orange">24&#176;C</span></div>
+                        <a href="#" class="white blue_btn font_OpenSans-regular font-16 m-t-30">Нужен ремонт!</a>
+                    </div>
+                    <div id="index_ajax_summer" class="m-t-20 index_index_bg ">
+                        <div class="font_Arial-regular font-30 ">ЭНЕРГОСБЕРЕГАЮЩИЙ<br>СТЕКЛОПАКЕТ.</div>
+                        <div class="flex-row m-t-15">
+                            <div id="to_index_ajax_winter-1" class="winter_sticker "><img src="img/snowly.png"><span class="font_OpenSans-regular white font-14 m-l-5">Зима</span></div>
+                            <div id="to_index_ajax_summer-1" class="winter_sticker active"><img src="img/sunny.png"><span class="font_OpenSans-regular white font-14 m-l-5">Лето</span></div>
+                        </div>
+                        <div class="font_OpenSans-bold font-24  m-t-15">Зимой тепло остается в доме.</div>
+                        <div class="font_OpenSans-regular font-16  m-t-20">Энергосберегающий теплопакет сохраняет в доме в 2 раза<br>
+                            больше тепла зимой и защищает от жары летом.</div>
+                        <div class="font_OpenSans-bold font-16  m-t-10">Температура в комнате при 30&#176;С за окном, <span class="orange">24&#176;C</span></div>
+                        <a href="#" class="white blue_btn font_OpenSans-regular font-16 m-t-30">Нужен ремонт!</a>
+                    </div>
+                </div>
+                <div id="index_ajax_2" class="ajax_banner">
+                    <div id="index_ajax_2-bg">
+                        <div class="font_Arial-regular font-30">ЗАМЕНА СТЕКЛОПАКЕТА.<br><span class="orange">ОЧЕНЬ БЫСТРО.</span></div>
+                        <div class="flex-column m-t-10">
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">замена поврежденных стеклопакетов</span></div>
+                            <div class="flex-row-center  index_slider_head_li-margin m"><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">замена однокамерных стеклопакетов<br>на двухкамерные</span></div>
+                        </div>
+                        <div class="grey font-16 m-t-10">
+                            Вызов специалиста в день обращения.В<br>удобное для вас время.
+                        </div>
+                        <div class="font_Arial-regular font-18 m-t-30"><span class="font_Arial-bold font-16">Цена:</span><span class="orange font_Arial-bold font-24">от 990 руб.</span><span class="orange">, 1-3 часа</span></div>
+                        <div class="flex-row m-t-30">
+                            <input class="input_orange">
+                            <a  class="slider_btn m-l-25 font-16 font_OpenSans-regular">Решите мою проблему</a>
+                        </div>
+                    </div>
+                    <div class="m-t-20  ">
+                        <div class="font_Arial-regular font-30 ">У вас капитальные проблемы с<br>окнами?</div>
+                        <div class="font_Arial-regular font-30 orange m-t-5">Решим!</div>
+                        <div class="flex-row m-t-40">
+                            <div class="flex-column">
+                                <div  class="flex-row-center "><div class="circle_orange"></div><span class="font_OpenSans-regular font-20">Продувают</span></div>
+                                <div  class="flex-row-center m-t-15"><div class="circle_orange"></div><span class="font_OpenSans-regular font-20">Скрипят и заедают</span></div>
+                                <div  class="flex-row-center m-t-15"><div class="circle_orange"></div><span class="font_OpenSans-regular font-20">Не закрываются</span></div>
+                            </div>
+                            <div class="flex-column m-l-80">
+                                <div  class="flex-row-center "><div class="circle_orange"></div><span class="font_OpenSans-regular font-20">Промерзают</span></div>
+                                <div  class="flex-row-center m-t-15"><div class="circle_orange"></div><span class="font_OpenSans-regular font-20">Сломались ручки</span></div>
+                                <div  class="flex-row-center m-t-15"><div class="circle_orange"></div><span class="font_OpenSans-regular font-20">Стучит отлив</span></div>
+                            </div>
+                        </div>
+                        <a href="#" class="white blue_btn font_OpenSans-regular font-16 m-t-40">Нужен ремонт!</a>
+                    </div>
+                </div>
+                <div id="index_ajax_4" class="ajax_banner">
+                    <div id="index_ajax_4-bg">
+                        <div class="font_Arial-regular font-30">ДУЕТ ИЗ ОКНА?<br><span class="orange">ИСПРАВИМ!</span></div>
+                        <div class="font_OpenSans-regular font-16 m-t-5">Причиной продувания может быть:</div>
+                        <div class="flex-column m-t-10">
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">некачественный, износившийся резиновый уплотнитель</span></div>
+                            <div class="flex-row-center  index_slider_head_li-margin m"><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">недостаточное количество точек прижима</span></div>
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">слабый прижим</span></div>
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">нарушение геометрии створки</span></div>
+                        </div>
+                        <div class="font_Arial-regular font-18 m-t-30"><span class="font_Arial-bold font-16">Цена:</span><span class="orange font_Arial-bold font-24">от 600 руб.</span><span class="orange">, 1-3 часа</span></div>
+                        <div class="flex-row m-t-30">
+                            <input class="input_orange">
+                            <a  class="slider_btn m-l-25 font-16 font_OpenSans-regular">Решите мою проблему</a>
+                        </div>
+                    </div>
+                    <div class="m-t-20 index_index_bg index_index">
+                        <div class="font_Arial-regular font-30 ">У вас капитальные проблемы с<br>окнами?</div>
+                        <div class="font_Arial-regular font-30 orange">Решим!</div>
+                        <div class="flex-column">
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Продувают</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Скрипят и заедают</span></div>
 
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Не закрываются</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Промерзают</span></div>
 
-    <footer>
-        <div class="footer_desktop candy">
-            <div style="color: #9B9B9B" class="font_OpenSans-regular font-12">
-                Copyright &#169; sms-ekb.ru<br>
-                2016-2017....Write
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Сломались ручки</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Стучит отлив</span></div>
+
+                            </div>
+                        </div>
+                        <a href="#" class="white blue_btn">Нужен ремонт!</a>
+                    </div>
+                </div>
+                <div id="index_ajax_5" class="ajax_banner">
+                    <div id="index_ajax_5-bg">
+                        <div class="font_Arial-regular font-30">ЛЕД И КОНДЕНСАТ НА ОКНАХ?<br><span class="orange">УСТРАНИМ!</span></div>
+                        <div class="font_OpenSans-regular font-16 m-t-5">Существует множество различгных причин, по вине<br>которых происходит образование наледи</div>
+                        <div class="flex-column m-t-10">
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">повышенная влажность воздуха в комнате</span></div>
+                            <div class="flex-row-center  index_slider_head_li-margin m"><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">плохая конвекция в помещении</span></div>
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">достаточно низкая температура на улице</span></div>
+                        </div>
+                        <div class="font_Arial-regular font-18 m-t-30"><span class="font_Arial-bold font-16">Цена:</span><span class="orange font_Arial-bold font-24">от 1190 руб.</span><span class="orange">, 1-3 часа</span></div>
+                        <div class="flex-row m-t-30">
+                            <input class="input_orange">
+                            <a  class="slider_btn m-l-25 font-16 font_OpenSans-regular">Решите мою проблему</a>
+                        </div>
+                    </div>
+                    <div class="m-t-20 index_index_bg index_index">
+                        <div class="font_Arial-regular font-30 ">У вас капитальные проблемы с<br>окнами?</div>
+                        <div class="font_Arial-regular font-30 orange">Решим!</div>
+                        <div class="flex-column">
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Продувают</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Скрипят и заедают</span></div>
+
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Не закрываются</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Промерзают</span></div>
+
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Сломались ручки</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Стучит отлив</span></div>
+
+                            </div>
+                        </div>
+                        <a href="#" class="white blue_btn">Нужен ремонт!</a>
+                    </div>
+                </div>
+                <div id="index_ajax_6" class="ajax_banner">
+                    <div id="index_ajax_6-bg">
+                        <div class="font_Arial-regular font-30">УТЕПЛЕНИЕ ОКОН.<br><span class="orange">БЫСТРО И КАЧЕСТВЕННО.</span></div>
+                        <div class="font_OpenSans-regular font-16 m-t-5">Способы утепления:</div>
+                        <div class="flex-column m-t-10">
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">замена утеплителя</span></div>
+                            <div class="flex-row-center  index_slider_head_li-margin m"><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">термооткосы</span></div>
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">термопакеты</span></div>
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">восстановление монтажного шва</span></div>
+                        </div>
+                        <div class="font_Arial-regular font-18 m-t-30"><span class="font_Arial-bold font-16">Цена:</span><span class="orange font_Arial-bold font-24">от 870 руб.</span><span class="orange">, 1-3 часа</span></div>
+                        <div class="flex-row m-t-30">
+                            <input class="input_orange">
+                            <a  class="slider_btn m-l-25 font-16 font_OpenSans-regular">Решите мою проблему</a>
+                        </div>
+                    </div>
+                    <div class="m-t-20 index_index_bg index_index">
+                        <div class="font_Arial-regular font-30 ">У вас капитальные проблемы с<br>окнами?</div>
+                        <div class="font_Arial-regular font-30 orange">Решим!</div>
+                        <div class="flex-column">
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Продувают</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Скрипят и заедают</span></div>
+
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Не закрываются</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Промерзают</span></div>
+
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Сломались ручки</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Стучит отлив</span></div>
+
+                            </div>
+                        </div>
+                        <a href="#" class="white blue_btn">Нужен ремонт!</a>
+                    </div>
+                </div>
+                <div id="index_ajax_7" class="ajax_banner">
+                    <div id="index_ajax_7-bg">
+                        <div class="font_Arial-regular font-30">РАЗДРАЖАЕТ СКРИП ОКНА?<br><span class="orange">МЫ ВАМ ПОМОЖЕМ!</span></div>
+                        <div class="font_OpenSans-regular font-16 m-t-5">Основные причины возникновения скрипа:</div>
+                        <div class="flex-column m-t-10">
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">брак во время изготовления петель</span></div>
+                            <div class="flex-row-center  index_slider_head_li-margin m"><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">на петлях отсутствует смазочный материал</span></div>
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">полный износ петель</span></div>
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">плохое крепление петель</span></div>
+                        </div>
+                        <div class="font_Arial-regular font-18 m-t-30"><span class="font_Arial-bold font-16">Цена:</span><span class="orange font_Arial-bold font-24">от 200 руб.</span><span class="orange">, 1 час</span></div>
+                        <div class="flex-row m-t-30">
+                            <input class="input_orange">
+                            <a  class="slider_btn m-l-25 font-16 font_OpenSans-regular">Решите мою проблему</a>
+                        </div>
+                    </div>
+                    <div class="m-t-20 index_index_bg index_index">
+                        <div class="font_Arial-regular font-30 ">У вас капитальные проблемы с<br>окнами?</div>
+                        <div class="font_Arial-regular font-30 orange">Решим!</div>
+                        <div class="flex-column">
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Продувают</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Скрипят и заедают</span></div>
+
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Не закрываются</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Промерзают</span></div>
+
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Сломались ручки</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Стучит отлив</span></div>
+
+                            </div>
+                        </div>
+                        <a href="#" class="white blue_btn">Нужен ремонт!</a>
+                    </div>
+                </div>
+                <div id="index_ajax_8" class="ajax_banner">
+                    <div id="index_ajax_8-bg">
+                        <div class="font_Arial-regular font-30">ЧАСТИЧНАЯ ИЛИ ПОЛНАЯ<br>ЗАМЕНА ФУРНИТУРЫ.</div>
+                        <div class="font_OpenSans-regular font-16 m-t-5">В каких случаях требуется замена фурнитуры на окне?</div>
+                        <div class="flex-column m-t-10">
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">появляется сквозняк</span></div>
+                            <div class="flex-row-center  index_slider_head_li-margin m"><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">окна промерзают</span></div>
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">нарушается шумоизоляция</span></div>
+                            <div class="flex-row-center "><div class="circle_blue"></div><span class="font_OpenSans-regular font-16 m-l-5">через створку проникает пыль, вода</span></div>
+                        </div>
+                        <div class="font_Arial-regular font-18 m-t-30"><span class="font_Arial-bold font-16">Цена:</span><span class="orange font_Arial-bold font-24">от 550 руб.</span><span class="orange">, 1-2 часа</span></div>
+                        <div class="flex-row m-t-30">
+                            <input class="input_orange">
+                            <a  class="slider_btn m-l-25 font-16 font_OpenSans-regular">Решите мою проблему</a>
+                        </div>
+                    </div>
+                    <div class="m-t-20 index_index_bg index_index">
+                        <div class="font_Arial-regular font-30 ">У вас капитальные проблемы с<br>окнами?</div>
+                        <div class="font_Arial-regular font-30 orange">Решим!</div>
+                        <div class="flex-column">
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Продувают</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Скрипят и заедают</span></div>
+
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Не закрываются</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Промерзают</span></div>
+
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Сломались ручки</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Стучит отлив</span></div>
+
+                            </div>
+                        </div>
+                        <a href="#" class="white blue_btn">Нужен ремонт!</a>
+                    </div>
+                </div>
+                <div id="index_ajax_9" class="ajax_banner">
+                    <div id="index_ajax_9-bg">
+                        <div class="font_Arial-regular font-30">ЗАМЕНА, УСТАНОВКА<br>ПОДОКОННИКОВ И ОТКОСОВ</div>
+                        <div class="grey font-16 m-t-25">
+                            Если в процессе эксплуатации на подоконнике появились<br>
+                            повреждения в виде потертостей, царапин, трещин или он<br>
+                            перестал выполнять свои функциональные задачи - простым<br>
+                            решение станет замена старого подоконника новым.<br>
+                        </div>
+                        <div class="font_Arial-regular font-18 m-t-30"><span class="font_Arial-bold font-16">Цена:</span><span class="orange font_Arial-bold font-24">от 2750 руб.</span><span class="orange">, 3-5 часов</span></div>
+                        <div class="flex-row m-t-30">
+                            <input class="input_orange">
+                            <a  class="slider_btn m-l-25 font-16 font_OpenSans-regular">Решите мою проблему</a>
+                        </div>
+                    </div>
+                    <div class="m-t-20 index_index_bg index_index">
+                        <div class="font_Arial-regular font-30 ">У вас капитальные проблемы с<br>окнами?</div>
+                        <div class="font_Arial-regular font-30 orange">Решим!</div>
+                        <div class="flex-column">
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Продувают</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Скрипят и заедают</span></div>
+
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Не закрываются</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Промерзают</span></div>
+
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Сломались ручки</span></div>
+                                <div class="flex-row-center "><div class="circle_orange"></div><span>Стучит отлив</span></div>
+
+                            </div>
+                        </div>
+                        <a href="#" class="white blue_btn">Нужен ремонт!</a>
+                    </div>
+                </div>
             </div>
-            <div class=" font_OpenSans-regular font-14"><span class="grey">телефон:</span> 8 (800)000 0000</div>
-            <div class="font_OpenSans-regular font-14"><span class="grey ">почта:</span> info@sms.com</div>
-            <div class="font_OpenSans-regular font-14"><span class="grey ">сайт:</span> sms-ekb.ru</div>
-            <div class="flex-row">
-                <img src="img/ok.png">
-                <img class="m-l-5" src="img/vk.png">
-                <img class="m-l-5" src="img/ig.png">
-                <img class="m-l-5" src="img/yt.png">
-                <img class="m-l-5" src="img/tw.png">
-                <img class="m-l-5" src="img/fb.png">
+        </section>
+        <section id="index_index">
+
+        </section>
+        <section id="index_better">
+            <div class="wrap index_better-1">
+
             </div>
-        </div>
-    </footer>
+        </section>
+        <section id="index_input">
+            <div class="wrap card_container card_indent_2 form m-b-20">
+                <div class="card_section_4">
+                    <div class="card_section_5">
+                        <section class="index_input_" id="index_input">
+                            <div class="">
+                                <div class="index_input">
+                                    <div class="index_sticker-orange card_white">БЕСПЛАТНО</div>
+                                    <form class="m-t-15" action="">
+                                        <div class="font_Arial-regular">Вызов технического специалиста</div>
+                                        <span>Бесплатный выезд</span>
+                                        <div class=" font_OpenSans-regular grey m-t-25">Имя</div>
+                                        <input class="index_input_input a m-t-5" type="text">
+                                        <div class="font_OpenSans-regular grey m-t-25">Телефон</div>
+                                        <input class="index_input_input b m-t-5" type="tel"><br>
+                                        <input class="index_input_input index_input_input_btn d width-full m-t-25" type="submit" value="Отправить заявку">
+                                        <div class="flex-row m-t-20">
+                                            <input type="checkbox" class="check" value="">
+                                            <div class="m-l-10">Я согласен(-а) на передачу и обработку данных</div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="service">
+                        <button>Бесплатно</button>
+                        <div class="font-42 font_OpenSans-bold m-t-5">Сервис. Смазка и
+                            обслуживание окон
+                            по сезону.
+                        </div>
+                        <p>Мы предоставляем годовое техническое и
+                            сервисное обслуживание как алюминиевых,
+                            так и пластиковых окон,<span> бесплатно
+                        для владельцев клубных карт</span>
+                        </p>
+                        <h2>Что входит?</h2>
+                        <ul>
+                            <li>Регулировка и смазка фурнитуры</li>
+                            <li>Осмотр окна</li>
+                            <li>Проверка резиновых уплотненителей</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="index_gallery">
+            <div class="wrap bg-light-lightgrey flex-center-column">
+                <div class="font_OpenSans-bold font-24 m-t-30">Галерея работ</div>
+                <div class="flex-row">
+                    <div class="gallery_main-container"></div>
+                    <div class="gallery_second-container"></div>
+                </div>
+
+            </div>
+        </section>
+        <section id="index_video-rewiews">
+            <div class="wrap bg-light-lightgrey flex-center-column">
+                <div class="font_OpenSans-bold font-24 m-t-30">Смотрите видео-отзывы</div>
+                <div class="flex-row m-t-30">
+                    <div class="flex-center-column">
+                        <div class="video-rewiews_container video-rewiews_container_bg1">
+                            <div class="video-rewiews_sticker white ">Валентина Андреевна<br>Договор № 1992</div>
+                            <div class="play"></div>
+                            <div class="logo_mini"></div>
+                        </div>
+                        <div class="font-16 font_OpenSans-regular m-t-10">
+                            Установка детского замка на окно
+                        </div>
+                    </div>
+                    <div class="flex-center-column">
+                        <div style="background: #D1D1D1" class="video-rewiews_container m-r-30  m-l-30">
+
+                        </div>
+                        <div class="font-16 font_OpenSans-regular m-t-10">
+                            Установка москитной сетки на окно
+                        </div>
+                    </div>
+                    <div class="flex-center-column">
+                        <div style="background: #D1D1D1" class="video-rewiews_container ">
+
+                        </div>
+                        <div class="font-16 font_OpenSans-regular m-t-10">
+                            Установка тонировки
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="index_problems">
+            <div class="wrap bg-light-lightgrey flex-center-column">
+                <div class="font_OpenSans-bold font-24 m-t-30">Решения самых частых проблем с окнами</div>
+                <div class="flex-row m-t-30">
+                    <div class="main-card flex-column m-r-20">
+                        <div class="main-card_bg"></div>
+                        <div class="main-card_sticker white font_OpenSans-bold font-12 m-t-15 m-l-20">ПОТЕЕТ СТЕКЛОПАКЕТ</div>
+                        <div class="font_OpenSans-semibold font-18 m-t-10 m-l-20">У меня потеет стеклопакет, вода бежит на подоконник.<br>Как исправить эту ситуацию?</div>
+                        <div style="margin-left: 480px" class="font-14 m-t-10 flex-row font_OpenSans-regular grey problems_ajax">Прочитать<img class="m-l-10" src="img/arrow-up.png"></div>
+                    </div>
+                    <div class="flex-column">
+                        <div class="third-card m-l-20">
+                            <div class="font_OpenSans-semibold font-18 m-t-10 m-l-20">Как выбрать тонировку на окно?</div>
+                            <div  class="font-14 m-t-10 flex-row font_OpenSans-regular grey problems_ajax_mini">Прочитать<img class="m-l-10" src="img/arrow-up.png"></div>
+                        </div>
+                        <div class="third-card m-l-20 m-t-20">
+                            <div class="font_OpenSans-semibold font-18 m-t-10 m-l-20">Как подготовить окна к<br>зиме?</div>
+                            <div  class="font-14 m-t-10 font_OpenSans-regular grey flex-row problems_ajax_mini">Прочитать<img class="m-l-10" src="img/arrow-up.png"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-row m-t-20">
+                    <div class="second-card ">
+                        <div class="font_OpenSans-semibold font-18 m-t-10 m-l-20">Прокручивается ручка и не<br>закрывается окно?</div>
+                        <div style="margin-left: 480px" class="font-14 m-t-10 flex-row font_OpenSans-regular grey flex-row problems_ajax">Прочитать<img class="m-l-10" src="img/arrow-up.png"></div>
+                    </div>
+                    <div class="third-card m-l-20">
+                        <div class="font_OpenSans-semibold font-18 m-t-10 m-l-20">Как защитить ребенка<br>возле окна?</div>
+                        <div  class="font-14 m-t-10 flex-row font_OpenSans-regular grey flex-row problems_ajax_mini">Прочитать<img class="m-l-10" src="img/arrow-up.png"></div>
+                    </div>
+                </div>
+                <div class="font_OpenSans-bold font-24 m-t-60">Другая продукция компании</div>
+                <div style="padding-bottom: 30px" class="flex-row m-t-30 ">
+                    <div  class="production-company">
+                        <div class="production-company_1"></div>
+                        <div class="m-t-20 font_OpenSans-regular font-17">Окна ПВХ,<br>балконы и лоджии</div>
+                        <div class="m-t-10 font_OpenSans-regular font-14 grey">Представляем самый<br>качественный монтаж на Урале!</div>
+                    </div>
+                    <div class="production-company m-l-20">
+                        <div class="production-company_2"></div>
+                        <div class="m-t-20 font_OpenSans-regular font-17">Деревянные<br>окна</div>
+                        <div class="m-t-10 font_OpenSans-regular font-14 grey">3 вида древесины, а также<br>премиум-окна</div>
+                    </div>
+                    <div class="production-company m-l-20">
+                        <div class="production-company_3"></div>
+                        <div class="m-t-20 font_OpenSans-regular font-17">Двери и<br>ручки</div>
+                        <div class="m-t-10 font_OpenSans-regular font-14 grey">Все виды дверей<br>по выгодным ценам</div>
+                    </div>
+                    <div class="production-company m-l-20">
+                        <div class="production-company_4"></div>
+                        <div class="m-t-20 font_OpenSans-regular font-17">Натяжные потолки и<br>светильники</div>
+                        <div class="m-t-10 font_OpenSans-regular font-14 grey">Потолки любой сложности<br>и цветовой гаммы</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="index_form">
+            <div class="wrap index_form ">
+                <div class="candy flex-column ">
+                    <div class="font_OpenSans-bold font-24 white m-t-10">Остались вопросы?</div>
+                    <div class="font_OpenSans-bold font-15 white">Оставьте ваш номер телефона и мы перезвоним вам в течение 7 секунд!</div>
+                    <div class="flex-row-center m-t-25">
+                        <input class="index_form_input">
+                        <div class="flex-row m-l-25">
+                            <input  type="checkbox" style="border: 0">
+                            <span class="font-14 font_OpenSans-regular white m-l-5">Я согласен (а) на обработку<br>персональных данных.</span>
+                        </div>
+                        <a href="#" class="form_btn font_OpenSans-bold font-16 white m-l-25">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer_desktop candy">
+                <div style="color: #9B9B9B" class="font_OpenSans-regular font-12">
+                    Copyright &#169; sms-ekb.ru<br>
+                    2016-2017....Write
+                </div>
+                <div class=" font_OpenSans-regular font-14"><span class="grey">телефон:</span> 8 (800)000 0000</div>
+                <div class="font_OpenSans-regular font-14"><span class="grey ">почта:</span> info@sms.com</div>
+                <div class="font_OpenSans-regular font-14"><span class="grey ">сайт:</span> sms-ekb.ru</div>
+                <div class="flex-row">
+                    <img src="img/ok.png">
+                    <img class="m-l-5" src="img/vk.png">
+                    <img class="m-l-5" src="img/ig.png">
+                    <img class="m-l-5" src="img/yt.png">
+                    <img class="m-l-5" src="img/tw.png">
+                    <img class="m-l-5" src="img/fb.png">
+                </div>
+            </div>
+        </footer>
+
 </body>
+    <script  src='js/jquery-3.2.1.min.js'></script>
+    <script src="js/index-tab.js"></script>
 </html>
 
 
