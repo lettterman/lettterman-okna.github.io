@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc03aa1d-727b-428f-aeda-37bfc34895b9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/index-tab.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/accessories.html" afterPath="$PROJECT_DIR$/accessories.html" />
-      <change beforePath="$PROJECT_DIR$/actie.html" afterPath="$PROJECT_DIR$/actie.html" />
-      <change beforePath="$PROJECT_DIR$/card.html" afterPath="$PROJECT_DIR$/card.html" />
-      <change beforePath="$PROJECT_DIR$/css/card.css" afterPath="$PROJECT_DIR$/css/card.css" />
-      <change beforePath="$PROJECT_DIR$/css/components.css" afterPath="$PROJECT_DIR$/css/components.css" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/css/remont.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/remont-tab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/rewiews.html" afterPath="$PROJECT_DIR$/rewiews.html" />
-    </list>
+    <list default="true" id="cc03aa1d-727b-428f-aeda-37bfc34895b9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -671,12 +656,12 @@
       <updated>1511903563443</updated>
       <workItem from="1511903564967" duration="105857000" />
       <workItem from="1512429589650" duration="1718000" />
-      <workItem from="1512434763060" duration="835000" />
+      <workItem from="1512434763060" duration="906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108410000" />
+    <option name="totallyTimeSpent" value="108481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
